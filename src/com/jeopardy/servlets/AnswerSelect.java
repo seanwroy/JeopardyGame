@@ -1,6 +1,6 @@
-package ca.jeopardy.questions;
+package com.jeopardy.servlets;
 
-import ca.jeopardy.beans.Questions;
+import com.jeopardy.beans.Questions;
 
 public class AnswerSelect {    
     public Questions getQuestion(int qnum) {

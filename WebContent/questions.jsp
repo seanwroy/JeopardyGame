@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ page import="ca.jeopardy.beans.Questions" %>
+<%@ page import="com.jeopardy.beans.Questions" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,12 +17,12 @@
 		<h3><%=q.getQuestion() %></h3>
         </div>
 		<div id="answer">
-		<form action="gameboard.jsp" method="get" id="questionbox">
+		<form action="AnswerServlet" method="get" id="questionbox">
 			<br>
-			<input type="radio" name="answer" value="answer1"><%=q.getAnswer1() %><br>
-			<input type="radio" name="answer" value="answer2"><%=q.getAnswer2() %><br>
-			<input type="radio" name="answer" value="answer3"><%=q.getAnswer3() %><br>
-			<input type="radio" name="answer" value="answer4"><%=q.getAnswer4() %><br>
+			<input type="radio" name="answer" value="<%=q.getAnswer1() %>"><%=q.getAnswer1() %><br>
+			<input type="radio" name="answer" value="<%=q.getAnswer2() %>"><%=q.getAnswer2() %><br>
+			<input type="radio" name="answer" value="<%=q.getAnswer3() %>"><%=q.getAnswer3() %><br>
+			<input type="radio" name="answer" value="<%=q.getAnswer4() %>"><%=q.getAnswer4() %><br>
 			<br>
 			<input type="submit" value="Submit">
         </form>

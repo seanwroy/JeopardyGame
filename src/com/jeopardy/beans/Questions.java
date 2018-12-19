@@ -1,4 +1,4 @@
-package ca.jeopardy.beans;
+package com.jeopardy.beans;
 import java.io.Serializable;
 
 public class Questions implements Serializable {
