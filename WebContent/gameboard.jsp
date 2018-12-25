@@ -6,6 +6,14 @@
         <meta charset="UTF-8">
         <title>Sheridan Jeopardy!</title>
         <link rel="stylesheet" href="css/style.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script
+		  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+		  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+		  crossorigin="anonymous"></script>
+		<script src="rsc/script.js"></script>
+		                
     </head>
     <body> 
  	
@@ -13,7 +21,7 @@
 		<%= p.getName() %>! This is Jeopardy!</h1>
 	  <div class="super-container">
 		<div class="grid-container clearfix">
-			  <div class="grid-item"><button class="button">${used[0]}</button></div>  
+			  <div class="grid-item"><button class="button zoom">${used[0]}</button></div>  
 			  <div class="grid-item"><button class="button">${used[1]}</button></div>
 			  <div class="grid-item"><button class="button">${used[2]}</button></div>  
 			  <div class="grid-item"><button class="button">${used[3]}</button></div>

@@ -6,7 +6,15 @@
     <head>
         <meta charset="UTF-8">
         <title>Sheridan Jeopardy!</title>
-        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="css/style.css">
+                
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script
+		  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+		  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+		  crossorigin="anonymous"></script>
+		<script src="rsc/script.js"></script>
+         
     </head>
     <body>
     
